@@ -7,7 +7,7 @@ public class Manager : MonoBehaviour {
     public GameObject chunkParent;
     //public Transform debugMin, debugMax;
     public float speedLearp;
-    private GameObject[] chunks1;
+    public GameObject[] chunks1;
     private float screenWidth;
     private float screenHeight;
 	// Use this for initialization
@@ -36,17 +36,22 @@ public class Manager : MonoBehaviour {
 
     public void ShuffleChunks1( )
     {
+
+        StartCoroutine(Shuffle());
+        
+    }
+    IEnumerator Shuffle()
+    {
         float x;
         float y;
-        foreach(GameObject chunk in chunks1)
+        foreach (GameObject chunk in chunks1)
         {
             x = Random.Range(-screenWidth, screenWidth);
             y = Random.Range(-screenHeight, screenHeight);
             Debug.Log("x = " + x + " y = " + y);
             iTween.MoveTo(chunk, new Vector2(x, y), speedLearp);
+            yield return null;
             //chunk.transform.position = new Vector2(x, y);
         }
-        
-        
     }
 }
