@@ -31,6 +31,7 @@ public class buttonEvents : MonoBehaviour {
 	}
 	IEnumerator Fill ()
 	{
+		Btn.interactable = false;
 		while (BtnImage.fillAmount< 1.0f) {
 				//Debug.Log(lbBtnImage.fillAmount);
 				BtnImage.fillAmount += 0.006f;
@@ -38,6 +39,7 @@ public class buttonEvents : MonoBehaviour {
 				}
 		yield return new WaitForSeconds(0.1f);
 
+		Btn.interactable = true;
 	}
 
 }
