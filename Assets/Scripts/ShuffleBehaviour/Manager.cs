@@ -28,7 +28,7 @@ public class Manager : MonoBehaviour {
 	[HideInInspector] public bool gameStarted = false;
 	private float touchedtime;
 	
-	
+	public CameraShake cameraEffect;
 	// Use this for initialization
     void Awake()
     {
@@ -72,6 +72,7 @@ public class Manager : MonoBehaviour {
         
     }
     public void Rotate(){
+		cameraEffect.CurrentMotion = CameraShake.CameraMotion.gravity;
 		Direction nextDirection = Direction.left;
 		switch(direction){
 		case Direction.up: nextDirection = Direction.left; Physics2D.gravity = new Vector2(0,-9.81f * Mathf.Pow(-1,swapCount)); break;
@@ -87,6 +88,7 @@ public class Manager : MonoBehaviour {
 		character2.rigidbody2D.velocity = Vector2.zero;
     }
     public void SwapDirection(){
+		cameraEffect.CurrentMotion = CameraShake.CameraMotion.direction;
 		swapCount ++;
 		character1.ChangeDirection();
 		character2.ChangeDirection();
@@ -99,6 +101,7 @@ public class Manager : MonoBehaviour {
     }
     
     public void SwapPlayers(){
+		cameraEffect.CurrentMotion = CameraShake.CameraMotion.swap;
 		iTween.MoveTo(character1.gameObject,character2.transform.position,.6f);
 		iTween.MoveTo(character2.gameObject,character1.transform.position,.6f);
 		
@@ -111,6 +114,7 @@ public class Manager : MonoBehaviour {
         float x;
         float y;
         RaycastHit hit;
+        cameraEffect.CurrentMotion = CameraShake.CameraMotion.shake;
         if(character1.Grounded(out hit)){
 			character1.transform.parent = hit.transform;;
         }

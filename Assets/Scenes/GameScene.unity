@@ -432,7 +432,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: .0500000007
-  m_GravityScale: .300000012
+  m_GravityScale: .469999999
   m_FixedAngle: 1
   m_IsKinematic: 1
   m_Interpolate: 0
@@ -652,6 +652,7 @@ GameObject:
   - 124: {fileID: 196698506}
   - 81: {fileID: 196698505}
   - 82: {fileID: 196698510}
+  - 114: {fileID: 196698511}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -781,6 +782,242 @@ AudioSource:
       outSlope: 0
       tangentMode: 0
     m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &196698511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 196698504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02183783e5ca12642bd8772b76708921, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraShakeX:
+    serializedVersion: 2
+    m_Curve:
+    - time: -.00744416891
+      value: .000405728817
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .106870234
+      value: .0180180669
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .251345396
+      value: .956005514
+      inSlope: 1.22196972
+      outSlope: 1.22196972
+      tangentMode: 0
+    - time: .566629291
+      value: .358111441
+      inSlope: .0858306885
+      outSlope: .0858306885
+      tangentMode: 0
+    - time: .84086746
+      value: .919003129
+      inSlope: 1.64747238
+      outSlope: 1.64747238
+      tangentMode: 0
+    - time: .977667511
+      value: .0268240571
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 1
+    m_PostInfinity: 2
+  cameraShakeY:
+    serializedVersion: 2
+    m_Curve:
+    - time: .00248138956
+      value: -.0039973259
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .0721307844
+      value: .696088076
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .220636204
+      value: .137841403
+      inSlope: 1.90883875
+      outSlope: 1.90883875
+      tangentMode: 0
+    - time: .251345396
+      value: .956005514
+      inSlope: 1.22196972
+      outSlope: 1.22196972
+      tangentMode: 0
+    - time: .499423504
+      value: .452246904
+      inSlope: -1.0356307
+      outSlope: -1.0356307
+      tangentMode: 0
+    - time: .652521372
+      value: .772566438
+      inSlope: .0858306885
+      outSlope: .0858306885
+      tangentMode: 0
+    - time: .853274405
+      value: .0516018867
+      inSlope: 1.64747238
+      outSlope: 1.64747238
+      tangentMode: 0
+    - time: .992555857
+      value: .00480878353
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 1
+    m_PostInfinity: 2
+  idleX:
+    serializedVersion: 2
+    m_Curve:
+    - time: -.0126594212
+      value: .000864673406
+      inSlope: .686151266
+      outSlope: .686151266
+      tangentMode: 0
+    - time: .480819374
+      value: .0651255846
+      inSlope: .0560283661
+      outSlope: .0560283661
+      tangentMode: 0
+    - time: .782741427
+      value: .134022981
+      inSlope: .384226441
+      outSlope: .384226441
+      tangentMode: 0
+    - time: 1.00130081
+      value: .000117756426
+      inSlope: 1.31635499
+      outSlope: 1.31635499
+      tangentMode: 0
+    m_PreInfinity: 1
+    m_PostInfinity: 2
+  idleY:
+    serializedVersion: 2
+    m_Curve:
+    - time: .00780840451
+      value: .0319819748
+      inSlope: .686151266
+      outSlope: .686151266
+      tangentMode: 0
+    - time: .480819374
+      value: .0651255846
+      inSlope: .0560283661
+      outSlope: .0560283661
+      tangentMode: 0
+    - time: .755717933
+      value: .085157007
+      inSlope: .179393217
+      outSlope: .179393217
+      tangentMode: 0
+    - time: 1.00381684
+      value: .0315315947
+      inSlope: 1.31635499
+      outSlope: 1.31635499
+      tangentMode: 0
+    m_PreInfinity: 1
+    m_PostInfinity: 2
+  swapPlayersX:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    - time: .518299222
+      value: .518299222
+      inSlope: -.0328596234
+      outSlope: -.0328596234
+      tangentMode: 10
+    - time: .996183217
+      value: .00900906324
+      inSlope: -1.06571925
+      outSlope: -1.06571925
+      tangentMode: 10
+    m_PreInfinity: 1
+    m_PostInfinity: 2
+  swapPlayersY:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: .0306962132
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: .0306962132
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 1
+    m_PostInfinity: 2
+  changeDirectionX:
+    serializedVersion: 2
+    m_Curve:
+    - time: -.0229007639
+      value: .00450456142
+      inSlope: -.142435789
+      outSlope: -.142435789
+      tangentMode: 0
+    - time: 1.0025382
+      value: -.0109128952
+      inSlope: -6.75268126
+      outSlope: -6.75268126
+      tangentMode: 0
+    m_PreInfinity: 1
+    m_PostInfinity: 2
+  changeDirectionY:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+    - time: 1.00013256
+      value: -.00164398551
+      inSlope: -3.88148236
+      outSlope: -3.88148236
+      tangentMode: 0
+    m_PreInfinity: 1
+    m_PostInfinity: 2
+  changeGravityX:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .997518599
+      value: .00900906324
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+    m_PreInfinity: 1
+    m_PostInfinity: 2
+  changeGravityY:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+    - time: .977667511
+      value: -.00450444221
+      inSlope: -8.06804943
+      outSlope: -8.06804943
+      tangentMode: 0
+    m_PreInfinity: 1
     m_PostInfinity: 2
 --- !u!1 &206730418
 GameObject:
@@ -1382,7 +1619,7 @@ Prefab:
       objectReference: {fileID: 1723431148}
     - target: {fileID: 5000000, guid: 1ff163672047cc143ab6e8a365938574, type: 2}
       propertyPath: m_GravityScale
-      value: .300000012
+      value: .469999999
       objectReference: {fileID: 0}
     - target: {fileID: 5000000, guid: 1ff163672047cc143ab6e8a365938574, type: 2}
       propertyPath: m_IsKinematic
@@ -2430,7 +2667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e7bb1063df62cb4ea603e6fb3de9597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 1.25
 --- !u!1001 &675880003
 Prefab:
   m_ObjectHideFlags: 0
@@ -3495,7 +3732,7 @@ Prefab:
       objectReference: {fileID: 1303108727}
     - target: {fileID: 5000000, guid: 1ff163672047cc143ab6e8a365938574, type: 2}
       propertyPath: m_GravityScale
-      value: .300000012
+      value: .469999999
       objectReference: {fileID: 0}
     - target: {fileID: 5000000, guid: 1ff163672047cc143ab6e8a365938574, type: 2}
       propertyPath: m_IsKinematic
@@ -4278,6 +4515,7 @@ MonoBehaviour:
   direction: 3
   powerUp: {fileID: 11400000, guid: 41813b1f53d1b7148b2302257a89c584, type: 2}
   gameStarted: 0
+  cameraEffect: {fileID: 196698511}
 --- !u!4 &1129847332
 Transform:
   m_ObjectHideFlags: 0
@@ -7077,7 +7315,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: .0500000007
-  m_GravityScale: .300000012
+  m_GravityScale: .469999999
   m_FixedAngle: 1
   m_IsKinematic: 1
   m_Interpolate: 0
