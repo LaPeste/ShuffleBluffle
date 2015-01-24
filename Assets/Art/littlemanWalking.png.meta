@@ -1,0 +1,266 @@
+fileFormatVersion: 2
+guid: 9dec1989c3fbc3b4fa6d3f027a2215e6
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: littlemanWalking_0
+    21300002: littlemanWalking_1
+    21300004: littlemanWalking_0
+    21300006: littlemanWalking_2
+    21300008: littlemanWalking_6
+    21300010: littlemanWalking_5
+    21300012: littlemanWalking_4
+    21300014: littlemanWalking_7
+    21300016: littlemanWalking_14
+    21300018: littlemanWalking_21
+    21300020: littlemanWalking_9
+    21300022: littlemanWalking_10
+    21300024: littlemanWalking_9
+    21300026: littlemanWalking_8
+    21300028: littlemanWalking_10
+    21300030: littlemanWalking_12
+    21300032: littlemanWalking_16
+    21300034: littlemanWalking_14
+    21300036: littlemanWalking_27
+    21300038: littlemanWalking_13
+    21300040: littlemanWalking_23
+    21300042: littlemanWalking_13
+    21300044: littlemanWalking_25
+    21300046: littlemanWalking_31
+    21300048: littlemanWalking_33
+    21300050: littlemanWalking_23
+    21300052: littlemanWalking_35
+    21300054: littlemanWalking_25
+    21300056: littlemanWalking_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: littlemanWalking_0
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 3496
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littlemanWalking_0
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 2783
+        width: 420
+        height: 639
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littlemanWalking_2
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2789
+        width: 390
+        height: 648
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littlemanWalking_6
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 2800
+        width: 372
+        height: 676
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littlemanWalking_4
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 2765
+        width: 386
+        height: 676
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littlemanWalking_8
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 2046
+        width: 391
+        height: 655
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littlemanWalking_10
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 2045
+        width: 360
+        height: 637
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littlemanWalking_12
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 2058
+        width: 316
+        height: 622
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littlemanWalking_14
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 2045
+        width: 395
+        height: 651
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littlemanWalking_16
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1215
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littlemanWalking_21
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1066
+        width: 409
+        height: 673
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littlemanWalking_25
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1092
+        width: 384
+        height: 648
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littlemanWalking_27
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 1069
+        width: 465
+        height: 676
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littlemanWalking_23
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1066
+        width: 382
+        height: 673
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littlemanWalking_31
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 362
+        width: 353
+        height: 621
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littlemanWalking_33
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 348
+        width: 399
+        height: 636
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littlemanWalking_23
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 971
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littlemanWalking_35
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 368
+        width: 422
+        height: 636
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: littlemanWalking_29
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 336
+        width: 431
+        height: 674
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
