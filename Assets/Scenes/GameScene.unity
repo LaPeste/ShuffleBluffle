@@ -1724,7 +1724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Btn: {fileID: 1979356959}
   BtnImage: {fileID: 0}
-  waitSpeed: 11
+  waitSpeed: 6.90999985
   audio: {fileID: 8300000, guid: ab9f72e289402ae4d82039812eed8945, type: 3}
 --- !u!1 &485871768
 GameObject:
@@ -4258,7 +4258,17 @@ MonoBehaviour:
   chunkParent: {fileID: 819970911}
   minPosition: {fileID: 443380779}
   maxPosition: {fileID: 1342421987}
-  dieSounds: []
+  dieSounds:
+  - {fileID: 8300000, guid: 770c55c9d32c94c42a33f3e21ab1b318, type: 3}
+  - {fileID: 8300000, guid: df46e47c85d878446ae12dac9903f091, type: 3}
+  - {fileID: 8300000, guid: f676c6249ce5bba4fa535d8c99503946, type: 3}
+  - {fileID: 8300000, guid: 633c4e4293e219c46a6993dbcb354c59, type: 3}
+  - {fileID: 8300000, guid: 50ab8f474a387984eafea085172e3cf1, type: 3}
+  - {fileID: 8300000, guid: 8b25674c54c3ada46bba2c344bd1bb5f, type: 3}
+  - {fileID: 8300000, guid: dc9299735da58104497173fb6e905f31, type: 3}
+  - {fileID: 8300000, guid: 47e717ce9f3e03041876414ed30b0d96, type: 3}
+  - {fileID: 8300000, guid: 4dd139eec57dc56439d50b8fee9b99e3, type: 3}
+  - {fileID: 8300000, guid: 518639630e921e3469c89dbf81a10422, type: 3}
   speedLerp: .180000007
   chunks1: []
   holdToStart: {fileID: 759754421}
