@@ -35,7 +35,7 @@ public class Manager : MonoBehaviour {
         Vector2 topRightCorner = new Vector2(1, 1); //viewport space places (1,1) at the top-right corner
         Vector2 edgeVector = Camera.main.ViewportToWorldPoint(topRightCorner);
         screenHeight = edgeVector.y;
-        Debug.Log("top right corner in world coordinate = " + edgeVector);
+    //    Debug.Log("top right corner in world coordinate = " + edgeVector);
         screenWidth = edgeVector.x;
         minPosition.transform.position = new Vector3(-screenWidth, -screenHeight);
         maxPosition.transform.position = new Vector3(screenWidth, screenHeight);
