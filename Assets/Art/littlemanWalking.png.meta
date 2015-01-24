@@ -11,7 +11,7 @@ TextureImporter:
     21300012: littlemanWalking_4
     21300014: littlemanWalking_7
     21300016: littlemanWalking_14
-    21300018: littlemanWalking_21
+    21300018: littlemanWalking_24
     21300020: littlemanWalking_9
     21300022: littlemanWalking_10
     21300024: littlemanWalking_9
@@ -20,17 +20,18 @@ TextureImporter:
     21300030: littlemanWalking_12
     21300032: littlemanWalking_16
     21300034: littlemanWalking_14
-    21300036: littlemanWalking_27
+    21300036: littlemanWalking_21
     21300038: littlemanWalking_13
     21300040: littlemanWalking_23
     21300042: littlemanWalking_13
-    21300044: littlemanWalking_25
-    21300046: littlemanWalking_31
-    21300048: littlemanWalking_33
+    21300044: littlemanWalking_22
+    21300046: littlemanWalking_27
+    21300048: littlemanWalking_26
     21300050: littlemanWalking_23
-    21300052: littlemanWalking_35
-    21300054: littlemanWalking_25
+    21300052: littlemanWalking_25
+    21300054: littlemanWalking_22
     21300056: littlemanWalking_29
+    21300058: littlemanWalking_28
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -172,7 +173,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: littlemanWalking_21
+    - name: littlemanWalking_24
       rect:
         serializedVersion: 2
         x: 116
@@ -182,21 +183,21 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: littlemanWalking_25
+    - name: littlemanWalking_22
       rect:
         serializedVersion: 2
         x: 1414
-        y: 1092
+        y: 1098
         width: 384
         height: 648
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: littlemanWalking_27
+    - name: littlemanWalking_21
       rect:
         serializedVersion: 2
         x: 2015
-        y: 1069
+        y: 1075
         width: 465
         height: 676
       alignment: 0
@@ -212,7 +213,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: littlemanWalking_31
+    - name: littlemanWalking_27
       rect:
         serializedVersion: 2
         x: 804
@@ -222,7 +223,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: littlemanWalking_33
+    - name: littlemanWalking_26
       rect:
         serializedVersion: 2
         x: 1415
@@ -242,7 +243,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: littlemanWalking_35
+    - name: littlemanWalking_25
       rect:
         serializedVersion: 2
         x: 2017
@@ -252,7 +253,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: littlemanWalking_29
+    - name: littlemanWalking_28
       rect:
         serializedVersion: 2
         x: 109
