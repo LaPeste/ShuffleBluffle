@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class buttonEvents : MonoBehaviour {
 	public Button Btn; 
 	public Image BtnImage; 
-
+	public float waitSpeed = 1.0f;
 	// Use this for initialization
 	void Start () {
 	
@@ -34,7 +34,7 @@ public class buttonEvents : MonoBehaviour {
 		Btn.interactable = false;
 		while (BtnImage.fillAmount< 1.0f) {
 				//Debug.Log(lbBtnImage.fillAmount);
-				BtnImage.fillAmount += 0.006f;
+			BtnImage.fillAmount += 0.006f * waitSpeed;
 				yield return new WaitForSeconds(0.05f);
 				}
 		yield return new WaitForSeconds(0.1f);

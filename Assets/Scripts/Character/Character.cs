@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class Character : KeepInScreen {
    
    public Text textFeedback;
-   public byte playerID;
+   public int playerID;
    public int Lifes{
 		set{
 			

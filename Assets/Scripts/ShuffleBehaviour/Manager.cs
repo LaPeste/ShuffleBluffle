@@ -39,6 +39,7 @@ public class Manager : MonoBehaviour {
         screenWidth = edgeVector.x;
         minPosition.transform.position = new Vector3(-screenWidth, -screenHeight);
         maxPosition.transform.position = new Vector3(screenWidth, screenHeight);
+        Physics2D.gravity = new Vector2(0,-9.81f);
     }
 	void Start () {
         chunks1 = new GameObject[chunkParent.transform.childCount];
@@ -146,8 +147,9 @@ public class Manager : MonoBehaviour {
 			yield return new WaitForEndOfFrame();
 		}
     }
-    public void GameLost(byte loserID){
+    public void GameLost(int loserID){
 		Debug.Log ((1-loserID)+" Won");
+		Application.LoadLevel(Application.loadedLevel + (1-loserID) +1);
     }
     private void NewPowerUp(){
     
