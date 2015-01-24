@@ -1,45 +1,50 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
-public class Character : MonoBehaviour {
-
-    public Transform minPosition, maxPosition;
-    private Vector2 min{
-     get{
-        return minPosition.transform.position;
-     }
-    }
-    private Vector2 max
-    {
-        get
-        {
-            return maxPosition.transform.position;
-        }
-    }
-    public int score;
-	// Use this for initialization
-	void Start () {
-	
+public class Character : KeepInScreen {
+   
+   public Text textFeedback;
+   public int playerID;
+   public int Lifes{
+		set{
+			
+			life = value;
+			string s = "";
+			
+			for(int i =0; i<value; i++){
+				s+="I ";
+			}
+			textFeedback.text = s;
+		}
+		get{
+			return life;
+		}
+   }
+   
+   private int life = 5;
+   public GameObject moveLeft, moveRight;
+   protected override void ReSpawn ()
+	{
+		base.ReSpawn ();
+		this.rigidbody2D.velocity = Vector2.zero;
+		Lifes --;
+		if(Lifes<=0){
+			Manager.instance.GameLost(playerID);
+		}
 	}
-    void FixedUpdate()
-    {
-        if (Died())
-        {
-            ReSpawn();
-        }
-    }
-
-    private bool Died()
-    {
-        return transform.position.x < min.x || transform.position.y < min.y;
-    }
-
-    void ReSpawn()
-    {
-        transform.position = new Vector3(Random.value * max.x, Random.value * max.y, 0);
-        score -= 10;
-
-    }
 	
+	protected override void FixedUpdate(){
+		base.FixedUpdate();
+		
+	}
+	public bool Grounded(out RaycastHit hit){
+	
+		return Physics.Raycast(this.transform.position,Vector3.down,out hit,2.0f);
+	}
+    public void ChangeDirection(){
+		moveLeft.SetActive(!moveLeft.activeSelf);
+		moveRight.SetActive(!moveRight.activeSelf);
+    }
 	
 }
