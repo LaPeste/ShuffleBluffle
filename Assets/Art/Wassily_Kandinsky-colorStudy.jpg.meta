@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: 4417e66c164f3f04b9534ee1b35ba5aa
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Wassily_Kandinsky-colorStudy_0
+    21300002: Wassily_Kandinsky-colorStudy_1
+    21300004: Wassily_Kandinsky-colorStudy_2
+    21300006: Wassily_Kandinsky-colorStudy_3
+    21300008: Wassily_Kandinsky-colorStudy_4
+    21300010: Wassily_Kandinsky-colorStudy_5
+    21300012: Wassily_Kandinsky-colorStudy_6
+    21300014: Wassily_Kandinsky-colorStudy_7
+    21300016: Wassily_Kandinsky-colorStudy_8
+    21300018: Wassily_Kandinsky-colorStudy_9
+    21300020: Wassily_Kandinsky-colorStudy_10
+    21300022: Wassily_Kandinsky-colorStudy_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -25,23 +37,143 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Wassily_Kandinsky-colorStudy_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 536
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wassily_Kandinsky-colorStudy_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 532
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wassily_Kandinsky-colorStudy_2
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 534
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wassily_Kandinsky-colorStudy_3
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 530
+        width: 280
+        height: 270
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wassily_Kandinsky-colorStudy_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 266
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wassily_Kandinsky-colorStudy_5
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 268
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wassily_Kandinsky-colorStudy_6
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 264
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wassily_Kandinsky-colorStudy_7
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 262
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wassily_Kandinsky-colorStudy_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wassily_Kandinsky-colorStudy_9
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 0
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wassily_Kandinsky-colorStudy_10
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 0
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wassily_Kandinsky-colorStudy_11
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 0
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
