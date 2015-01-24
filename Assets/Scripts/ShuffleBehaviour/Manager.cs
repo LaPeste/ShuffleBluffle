@@ -54,7 +54,7 @@ public class Manager : MonoBehaviour {
 
     public void ShuffleChunks1()
     {
-		Debug.Log ("startshuffle");
+		//Debug.Log ("startshuffle");
 		StopAllCoroutines();
         StartCoroutine(Shuffle());
         
