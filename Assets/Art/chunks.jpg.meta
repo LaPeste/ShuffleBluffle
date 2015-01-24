@@ -2,18 +2,18 @@ fileFormatVersion: 2
 guid: 4417e66c164f3f04b9534ee1b35ba5aa
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Wassily_Kandinsky-colorStudy_0
-    21300002: Wassily_Kandinsky-colorStudy_1
-    21300004: Wassily_Kandinsky-colorStudy_2
-    21300006: Wassily_Kandinsky-colorStudy_3
-    21300008: Wassily_Kandinsky-colorStudy_4
-    21300010: Wassily_Kandinsky-colorStudy_5
-    21300012: Wassily_Kandinsky-colorStudy_6
-    21300014: Wassily_Kandinsky-colorStudy_7
-    21300016: Wassily_Kandinsky-colorStudy_8
-    21300018: Wassily_Kandinsky-colorStudy_9
-    21300020: Wassily_Kandinsky-colorStudy_10
-    21300022: Wassily_Kandinsky-colorStudy_11
+    21300000: chunk_0
+    21300002: chunk_1
+    21300004: chunk_2
+    21300006: chunk_3
+    21300008: chunk_4
+    21300010: chunk_5
+    21300012: chunk_6
+    21300014: chunk_7
+    21300016: chunk_8
+    21300018: chunk_9
+    21300020: chunk_10
+    21300022: chunk_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -55,7 +55,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Wassily_Kandinsky-colorStudy_0
+    - name: chunk_0
       rect:
         serializedVersion: 2
         x: 20
@@ -65,7 +65,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Wassily_Kandinsky-colorStudy_1
+    - name: chunk_1
       rect:
         serializedVersion: 2
         x: 323
@@ -75,7 +75,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Wassily_Kandinsky-colorStudy_2
+    - name: chunk_2
       rect:
         serializedVersion: 2
         x: 622
@@ -85,7 +85,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Wassily_Kandinsky-colorStudy_3
+    - name: chunk_3
       rect:
         serializedVersion: 2
         x: 915
@@ -95,7 +95,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Wassily_Kandinsky-colorStudy_4
+    - name: chunk_4
       rect:
         serializedVersion: 2
         x: 20
@@ -105,7 +105,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Wassily_Kandinsky-colorStudy_5
+    - name: chunk_5
       rect:
         serializedVersion: 2
         x: 317
@@ -115,7 +115,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Wassily_Kandinsky-colorStudy_6
+    - name: chunk_6
       rect:
         serializedVersion: 2
         x: 622
@@ -125,7 +125,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Wassily_Kandinsky-colorStudy_7
+    - name: chunk_7
       rect:
         serializedVersion: 2
         x: 921
@@ -135,7 +135,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Wassily_Kandinsky-colorStudy_8
+    - name: chunk_8
       rect:
         serializedVersion: 2
         x: 16
@@ -145,7 +145,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Wassily_Kandinsky-colorStudy_9
+    - name: chunk_9
       rect:
         serializedVersion: 2
         x: 305
@@ -155,7 +155,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Wassily_Kandinsky-colorStudy_10
+    - name: chunk_10
       rect:
         serializedVersion: 2
         x: 618
@@ -165,7 +165,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Wassily_Kandinsky-colorStudy_11
+    - name: chunk_11
       rect:
         serializedVersion: 2
         x: 925
