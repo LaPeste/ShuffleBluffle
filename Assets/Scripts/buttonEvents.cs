@@ -6,6 +6,7 @@ public class buttonEvents : MonoBehaviour {
 	public Button Btn; 
 	public Image BtnImage; 
 	public float waitSpeed = 1.0f;
+	public AudioClip audio;
 	// Use this for initialization
 	void Start () {
 	
@@ -24,6 +25,7 @@ public class buttonEvents : MonoBehaviour {
 	{	
 		if (BtnImage.fillAmount == 1.0f) 
 		{
+			AudioSource.PlayClipAtPoint(audio,Vector3.zero);
 			Debug.Log ("do something");
 			BtnImage.fillAmount = 0.0f;
 			StartCoroutine(Fill());
