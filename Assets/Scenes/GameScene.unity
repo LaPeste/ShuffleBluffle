@@ -505,6 +505,7 @@ MonoBehaviour:
   Btn: {fileID: 870770425}
   BtnImage: {fileID: 0}
   waitSpeed: 12
+  audio: {fileID: 8300000, guid: 97d024ff58039cc4682aad8aac7dd62a, type: 3}
 --- !u!1001 &187554044
 Prefab:
   m_ObjectHideFlags: 0
@@ -1023,6 +1024,7 @@ MonoBehaviour:
   Btn: {fileID: 350225035}
   BtnImage: {fileID: 0}
   waitSpeed: 7
+  audio: {fileID: 8300000, guid: cd5de02677d8c3042b0d9ef5df574f5e, type: 3}
 --- !u!1 &346101085
 GameObject:
   m_ObjectHideFlags: 0
@@ -1645,6 +1647,7 @@ MonoBehaviour:
   Btn: {fileID: 1979356959}
   BtnImage: {fileID: 0}
   waitSpeed: 11
+  audio: {fileID: 8300000, guid: 63f39e816e826b045852986a9c16bb07, type: 3}
 --- !u!1001 &487834438
 Prefab:
   m_ObjectHideFlags: 0
@@ -4460,6 +4463,7 @@ MonoBehaviour:
   Btn: {fileID: 1349662962}
   BtnImage: {fileID: 0}
   waitSpeed: 2
+  audio: {fileID: 8300000, guid: 9ab148a372a103c48a5f066fdb787b40, type: 3}
 --- !u!1 &1342421986
 GameObject:
   m_ObjectHideFlags: 0
