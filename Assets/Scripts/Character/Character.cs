@@ -8,7 +8,9 @@ public class Character : KeepInScreen {
    public int playerID;
    public int Lifes{
 		set{
-			
+			if(value<life){
+				if(Manager.instance.dieSounds!=null) if (Manager.instance.dieSounds.Length>0) AudioSource.PlayClipAtPoint(Manager.instance.dieSounds[Random.Range (0,Manager.instance.dieSounds.Length)],Vector3.zero);
+			}
 			life = value;
 			string s = "";
 			
@@ -21,9 +23,12 @@ public class Character : KeepInScreen {
 			return life;
 		}
    }
-   
-   private int life = 5;
+   public Animator[] animators;
+   private int life = 7;
    public GameObject moveLeft, moveRight;
+   private void Start(){
+		Lifes = life;
+   }
    protected override void ReSpawn ()
 	{
 		base.ReSpawn ();
@@ -45,6 +50,12 @@ public class Character : KeepInScreen {
     public void ChangeDirection(){
 		moveLeft.SetActive(!moveLeft.activeSelf);
 		moveRight.SetActive(!moveRight.activeSelf);
+    }
+    public void EnableAnimators(bool state){
+		foreach(Animator anim in animators){
+			anim.enabled = state;
+		}
+	
     }
 	
 }

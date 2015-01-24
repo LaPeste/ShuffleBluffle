@@ -26,7 +26,7 @@ public class buttonEvents : MonoBehaviour {
 		if (BtnImage.fillAmount == 1.0f) 
 		{
 			AudioSource.PlayClipAtPoint(audio,Vector3.zero);
-			Debug.Log ("do something");
+			
 			BtnImage.fillAmount = 0.0f;
 			StartCoroutine(Fill());
 		}

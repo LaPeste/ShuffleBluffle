@@ -7,10 +7,11 @@ public class Manager : MonoBehaviour {
 	public static Manager instance;
     public GameObject chunkParent;
     public Transform minPosition, maxPosition;
+    public AudioClip[] dieSounds;
     [Range(0,1.0f)]
     public float speedLerp;
     public GameObject[] chunks1;
-    
+    public GameObject holdToStart;
     public Character character1,character2;
     
 	public WorldMover worldMover;
@@ -24,8 +25,8 @@ public class Manager : MonoBehaviour {
 	public Direction direction;
 	public ExtraLife powerUp;
 	
-	
-	
+	[HideInInspector] public bool gameStarted = false;
+	private float touchedtime;
 	
 	
 	// Use this for initialization
@@ -35,7 +36,7 @@ public class Manager : MonoBehaviour {
         Vector2 topRightCorner = new Vector2(1, 1); //viewport space places (1,1) at the top-right corner
         Vector2 edgeVector = Camera.main.ViewportToWorldPoint(topRightCorner);
         screenHeight = edgeVector.y;
-        Debug.Log("top right corner in world coordinate = " + edgeVector);
+        
         screenWidth = edgeVector.x;
         minPosition.transform.position = new Vector3(-screenWidth, -screenHeight);
         maxPosition.transform.position = new Vector3(screenWidth, screenHeight);
@@ -43,18 +44,29 @@ public class Manager : MonoBehaviour {
     }
 	void Start () {
         chunks1 = new GameObject[chunkParent.transform.childCount];
-	    for(int i =0 ; i<chunkParent.transform.childCount; i++)
+		character1.EnableAnimators(false);
+		character2.EnableAnimators(false);
+		for(int i =0 ; i<chunkParent.transform.childCount; i++)
         {
             chunks1[i] = chunkParent.transform.GetChild(i).gameObject;
         }
-        ShuffleChunks1();
-        InvokeRepeating("NewPowerUp",5.0f,10.0f);
+        
+        
 	}
 	
-
+	void Update(){
+		if(!gameStarted){
+			if(Input.GetMouseButtonDown(0)){
+				touchedtime = Time.time;
+			}
+			if(Input.GetMouseButtonUp (0) && Time.time - touchedtime >0.1f){
+				StartGame ();
+			}
+		}
+	}
     public void ShuffleChunks1()
     {
-		Debug.Log ("startshuffle");
+		
 		StopAllCoroutines();
         StartCoroutine(Shuffle());
         
@@ -161,5 +173,16 @@ public class Manager : MonoBehaviour {
 		
     }
     
-    
+    public void StartGame(){
+		holdToStart.SetActive(false);
+		gameStarted = true;
+		character1.rigidbody2D.isKinematic = false;
+		character2.rigidbody2D.isKinematic = false;
+		ShuffleChunks1();
+		character1.EnableAnimators(true);
+		character2.EnableAnimators(true);
+		InvokeRepeating("NewPowerUp",5.0f,10.0f);
+	}
+	
+	
 }
