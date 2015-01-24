@@ -26,7 +26,7 @@ public class buttonEvents : MonoBehaviour {
 		if (BtnImage.fillAmount == 1.0f) 
 		{
 			AudioSource.PlayClipAtPoint(audio,Vector3.zero);
-
+			
 			BtnImage.fillAmount = 0.0f;
 			StartCoroutine(Fill());
 		}
@@ -35,7 +35,7 @@ public class buttonEvents : MonoBehaviour {
 	{
 		Btn.interactable = false;
 		while (BtnImage.fillAmount< 1.0f) {
-
+				//Debug.Log(lbBtnImage.fillAmount);
 			BtnImage.fillAmount += 0.006f * waitSpeed;
 				yield return new WaitForSeconds(0.05f);
 				}
