@@ -56,10 +56,8 @@ public class Manager : MonoBehaviour {
 	
 	void Update(){
 		if(!gameStarted){
-			if(Input.GetMouseButtonDown(0)){
-				touchedtime = Time.time;
-			}
-			if(Input.GetMouseButtonUp (0) && Time.time - touchedtime >0.1f){
+			
+			if(Input.GetMouseButtonUp (0)){
 				StartGame ();
 			}
 		}
